@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Neeraj Patil | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <header class="header">
+    <nav class="nav container">
+      <div class="logo">Neeraj Patil<span></span></div>
+
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <button class="theme-toggle" aria-label="Toggle dark mode">
+        🌙
+      </button>
+    </nav>
+  </header>
+
+  
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-card">
+        <div class="hero-text-block">
+          <p class="hero-subtitle">Frontend Developer & Java Enthusiast</p>
+          <h1 class="hero-title">Hi, I'm <span>Neeraj Patil</span></h1>
+          <p class="hero-text">
+            I build clean, responsive and modern web interfaces using
+            <strong>HTML, CSS, JavaScript and Java.</strong>
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="#contact" class="btn outline">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-image-block">
+          
+          <div class="hero-image-overlay"></div>
+          <img src="images/imageshero-workspace.jpg.png" alt="Workspace with laptop" />
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div class="about-img reveal">
+          
+          <img src="images/imagesprofile.jpg.png" alt="Neeraj Patil" />
+        </div>
+        <div class="about-content reveal">
+          <h2 class="section-title">About Me</h2>
+          <p>
+            I'm a B.Tech Electronic and Computer Engineering student with a strong interest in
+            frontend development and Java-based applications. I like turning
+            ideas into simple and attractive user interfaces.
+          </p>
+          <p>
+            I work mainly with HTML, CSS and JavaScript on the frontend, and
+            Java for building logic and backend concepts. I focus on writing
+            clean code, using responsive layouts and keeping the design
+            minimal, modern and easy to use.
+          </p>
+          <p>
+            Recently I have worked on projects like a Smart Dustbin for waste
+            segregation, a 3D Scanner using OpenCV and this portfolio website.
+            I am also learning Spring MVC and improving my Java skills.
+          </p>
+        </div>
+      </div>
+    </section>
+
+   
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title center">Skills</h2>
+        <p class="section-subtitle center">
+          Technologies and tools I use to build projects.
+        </p>
+
+        <div class="skills-grid">
+          
+          <div class="skill-card reveal">
+            <img src="images/imagesskill-frontend.png.png" alt="Frontend" class="skill-icon" />
+            <h3>Frontend Development</h3>
+            <p>HTML, CSS, JavaScript, responsive design, basic animations.</p>
+          </div>
+
+         
+          <div class="skill-card reveal">
+            <img src="images/imagesskill-java.png.png" alt="Java" class="skill-icon" />
+            <h3>Java Programming</h3>
+            <p>Core Java, OOP concepts, mini console / GUI projects.</p>
+          </div>
+
+         
+          <div class="skill-card reveal">
+            <img src="images/images/imageshero-workspace.jpg.png" alt="Tools" class="skill-icon" />
+            <h3>Tools & Platforms</h3>
+            <p>Git, GitHub, VS Code / IntelliJ, basic Spring MVC understanding.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title center">Projects</h2>
+        <p class="section-subtitle center">
+          A few selected projects that represent my work.
+        </p>
+
+        <div class="projects-grid">
+          
+          <article class="project-card reveal">
+            <img src="images/imagesproject-portfolio.png.png" alt="Portfolio Website" class="project-img" />
+            <div class="project-content">
+              <h3>Personal Portfolio Website</h3>
+              <p>
+                A responsive portfolio built with HTML, CSS and JavaScript to
+                showcase my skills, projects and contact details with a clean,
+                card-based UI and dark mode support.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+            </div>
+          </article>
+
+         
+          <article class="project-card reveal">
+            <img src="images/imagesproject-smartdustbin.png.png" alt="Smart Dustbin for Waste Segregation" class="project-img" />
+            <div class="project-content">
+              <h3>Smart Dustbin for Waste Segregation</h3>
+              <p>
+                IoT-based smart dustbin that automatically detects and
+                separates waste types using sensors and simple logic, helping
+                with cleaner and smarter waste management.
+              </p>
+              <div class="project-tags">
+                <span>IoT</span>
+                <span>Embedded</span>
+                <span>Automation</span>
+              </div>
+            </div>
+          </article>
+
+          
+          <article class="project-card reveal">
+            <img src="images/imagesproject-3dscanner.png.png" alt="3D Scanner using OpenCV" class="project-img" />
+            <div class="project-content">
+              <h3>3D Scanner using OpenCV</h3>
+              <p>
+                Computer vision project that uses OpenCV to capture multiple
+                images and generate basic 3D information about an object for
+                analysis and visualization.
+              </p>
+              <div class="project-tags">
+                <span>Python</span>
+                <span>OpenCV</span>
+                <span>Computer Vision</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="contact" class="section section-alt">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <h2 class="section-title">Contact</h2>
+          <p>
+            If you have an opportunity, project idea or just want to say hello,
+            feel free to contact me.
+          </p>
+
+          <ul class="contact-list">
+            <li>
+              <img src="images/imagesgmail.png.png" alt="Email" />
+              <span>neerajpatil7090@gmail.com</span>
+            </li>
+            <li>
+              <img src="images/imagesgithub.png.png" alt="GitHub" />
+              <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a>
+            </li>
+            <li>
+              <img src="images/imagesfacebook.png.png" alt="Facebook" />
+              <a href="https://facebook.com/yourprofile" target="_blank">facebook.com/yourprofile</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-form-wrapper reveal">
+          <form id="contactForm" novalidate>
+            <h3>Send me a message</h3>
+
+            <div class="form-group">
+              <label for="name">Name *</label>
+              <input type="text" id="name" placeholder="Your name" required />
+              <small class="error-msg"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" placeholder="your@email.com" required />
+              <small class="error-msg"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" rows="4" placeholder="Write something..." required></textarea>
+              <small class="error-msg"></small>
+            </div>
+
+            <button type="submit" class="btn primary full-width">Send Message</button>
+            <p id="formStatus" class="form-status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+ 
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Neeraj Patil. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">
+          <img src="images/github.png" alt="GitHub" />
+        </a>
+        <a href="mailto:youremail@gmail.com" aria-label="Email">
+          <img src="images/gmail.png" alt="Email" />
+        </a>
+        <a href="https://facebook.com/yourprofile" target="_blank" aria-label="Facebook">
+          <img src="images/facebook.png" alt="Facebook" />
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
